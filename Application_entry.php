@@ -13,7 +13,7 @@ function application_Register()
         <script language="javascript" type="text/javascript">
             var AgeAsOfDate = '01/01/2015';
             var AgeMinDate1 = '01/01/1997';
-            var AgeMaxDate1 = '01/01/1980';
+            var AgeMaxDate1 = '01/01/1969';
             function updateaddress() {
                 if (document.getElementById('checkbox1').checked) {
                     document.getElementById('vill_txt2').value = document.getElementById('vill_txt1').value;
@@ -504,6 +504,17 @@ function application_Register()
                             <option value="1982">1982</option>
                             <option value="1981">1981</option>
                             <option value="1980">1980</option>
+                            <option value="1979">1979</option>
+                             <option value="1978">1978</option>
+                                <option value="1977">1977</option>
+                                <option value="1976">1976</option>
+                                <option value="1975">1975</option>
+                                <option value="1974">1974</option>
+                                 <option value="1973">1973</option>
+                                 <option value="1972">1972</option>
+                                 <option value="1971">1971</option>
+                                 <option value="1970">1970</option>
+                                 <option value="1969">1969</option>
                         </select></td>
                 </tr>
                 <tr>
@@ -1073,7 +1084,7 @@ function application_Register()
                                                           face="Arial, Helvetica, sans-serif">
                                     <input type="button" name="Submit" value="Save" Onclick="validate()"
                                            class="button">
-                                    <input name="myear" id="myear" value="1980" type="hidden">
+                                    <input name="myear" id="myear" value="1969" type="hidden">
                                     <input name="Exit" type="button" id="Exit" value="Exit" class="button"
                                            onClick="window.close();">
                                 </font></strong></div>
